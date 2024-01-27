@@ -1,0 +1,22 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+body {
+  margin: 0px;
+}
+.image {
+  height: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.list-container {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    font: 23px;
+  }
+}

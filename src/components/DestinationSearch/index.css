@@ -1,0 +1,82 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+
+* {
+  font-family: roboto;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #252627;
+  align-items: center;
+  font-size: 30px;
+}
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 5px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.search-input {
+  font-family: Open Sans;
+  background-color: #f1f5f9;
+  padding-left: 10px;
+  border-style: none;
+  outline: none;
+  font-size: 16px;
+}
+.search-icon-image {
+  height: 30px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+  .card-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heading {
+    margin-left: 50px;
+  }
+  .search-input-container {
+    margin-left: 50px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .search-input {
+    font-size: 25px;
+  }
+  .search-input-container{
+    margin-bottom: 30px;
+  }
+}
